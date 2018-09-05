@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.pokemon-catch {
+    float: left;
+    background: #EA8377;
+    color: white;
+    text-align: left;
+    width: 20%;
+    padding: 0px 0px 0px 20px;
+    margin: 25px 0px 0px 50px;
+}
+
+.instructions {
+    float: right;
+    background: rgb(255, 145, 133);
+    text-align: left;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 6% 0px 50px;
+}
+
+
+.lose {
+    position: fixed;
+    display: block;
+    background: rgb(156, 130, 127);
+    color: white;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    bottom: 42px;
+    margin: 0px 0px 0px 50px;
+}
+
+.win {
+    position: fixed;
+    display: block;
+    background: rgb(96, 90, 124);
+    color: white;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    bottom: 120px;
+    margin: 0px 0px 0px 50px;
+}
+
+.target {
+    float: right;
+    background: rgb(156, 130, 127);
+    color: white;
+    padding: 5px;
+    width: 40%;
+    text-align: center;
+    bottom: 42px;
+    margin: 250px 6% 0px 50px;
+}
+
+.total {
+    float: right;
+    background: rgb(96, 90, 124);
+    color: white;
+    padding: 5px;
+    width: 40%;
+    text-align: center;
+    bottom: 120px;
+    margin: 0px 6% 0px 50px;
+}
+
+#pokemon {
+    position: fixed;
+    display: block;
+    bottom: 250px;
+}
+
+.gengar {
+    position: fixed;
+    display: block;
+    bottom: 10px;
+    width: 40%;
+    margin: 0px 0px 0px 30%;
+}
+
+.pika-image {
+    margin: 0px 50px 0px 6%;
+    width: 18%;
+}
+
+.clefairy-image {
+    margin: 0px 50px 0px 0px;
+    width: 18%;
+}
+
+.koffing-image {
+    margin: 0px 50px 0px 0px;
+    width: 18%;
+}
+
+.eevee-image {
+    margin: 0px 50px 0px 0px;
+    width: 18%;
+}
+

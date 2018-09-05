@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simple crystal game</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+ 
+</head>
+<body>
+
+    <div class="pokemon-catch"><h1>POKEMON CATCH</h1></div>
+    <div class="instructions"><p>Gengar has appeared in the wild, let's add him to our pokedex! Select any of your four Pokemon to attack.
+        Each one has a certain amount of attack points. Your job is to produce enough points to equal Gengar's hit-point value.
+    But be careful, over-attacking will cause Gengar to flee. Best of luck!</p></div>
+    <div class="target"><h2>HIT POINTS: <span id="target-points"></span></h2></div>
+    <div class="total"><h2>ATTACK POINTS: <span id="total-points"></span></h2></div>
+    <div class="win"><h2>WINS : <span id="wins"></span></h2></div>
+    <div class="lose"><h2>LOSSES : <span id="losses"></span></h2></div>
+  
+    <div id="pokemon"></div>
+    <div class="gengar"><img src="assets/images/pokemon/gengar.gif" width="50%"></div>
+ 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
